@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  
+</head>
+
+<body>
+
+  <header>
+    <img src="./images/seagame2023.webp" alt="" class="logo">
+    <h1>SEAGAME 2023</h1>
+  </header>
+
+  <section class="wrapper">
+    <h2 class="section-title">Search By Country</h2>
+    <section class="searchByCountry">
+      <!-- <h2 id="countryName">Cambodia</h2> -->
+      <select name="country" id="country">
+        <option value="cambodia">Cambodia</option>
+        <!-- <option value=""></option> -->
+      </select>
+      <div class="medal-container">
+        <img src="./images/cambodia.gif" alt="">
+        <div class="medal-wrapper">
+          <ion-icon name="medal" class="gold"></ion-icon>
+          <h3 class="gold">GOLD</h3>
+          <ion-icon name="medal" class="silver"></ion-icon>
+          <h3 class="silver">SILVER</h3>
+          <ion-icon name="medal" class="bronze"></ion-icon>
+          <h3 class="bronze">BRONZE</h3>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="wrapper">
+    <h2 class="section-title">Medal Standing</h2>
+    <section>
+      <h4 id="currentDate">20 May 2023</h4>
+
+      <table>
+        <thead>
+          <th>Rank</th>
+          <th>Country</th>
+          <th>
+            <ion-icon name="medal" class="gold"></ion-icon>
+          </th>
+          <th>
+            <ion-icon name="medal" class="silver"></ion-icon>
+          </th>
+          <th>
+            <ion-icon name="medal" class="bronze"></ion-icon>
+          </th>
+          <th>
+            <ion-icon name="podium"></ion-icon>
+          </th>
+        </thead>
+
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>
+              <div class="row">
+                <img src="./images/cambodia.gif" alt="">
+                <p>Cambodia</p>
+              </div>
+            </td>
+            <td>81</td>
+            <td>74</td>
+            <td>127</td>
+            <td>282</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+  </section>
+
+  <section class="wrapper">
+    <h2 class="section-title">Won by Percentage</h2>
+    <div class="graph-wrapper">
+      <div class="country">
+        <h4>Cambodia</h4>
+        <div class="bargraph">
+          <div class="bargraph-value" style="width:13%;">13%</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <footer>
+    <h2>&copy; ALL RIGHT RESERVED SEAGAME CAMBODIA 2023</h2>
+  </footer>
+
+
+
+
+
+
+
+
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
